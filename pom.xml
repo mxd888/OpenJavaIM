@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>xyz.ojim</groupId>
+    <artifactId>OpenJavaIM</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <developers>
+        <developer>
+            <id>mi xiao dong</id>
+            <name>mi xiao dong</name>
+            <organization>guang xi min zu university</organization>
+            <email>1191998028@qq.com</email>
+            <url>http://</url>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git@gitee.com:xchao/j-im.git</connection>
+        <developerConnection>scm:git:git@gitee.com:xchao/j-im.git</developerConnection>
+        <url>git@gitee.com:xchao/j-im.git</url>
+    </scm>
+
+    <properties>
+        <jdk.version>1.8</jdk.version>
+
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.3.0-alpha4</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
